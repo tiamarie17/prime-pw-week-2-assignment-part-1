@@ -124,6 +124,8 @@ if (pets >= friendsPets) {
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 
+// I watched a video on Programiz to learn about the syntax of switch statements: https://www.programiz.com/javascript/switch-statement
+
 switch (luckyNumber) {
     case 1: 
         console.log('First is the worst');
@@ -144,4 +146,7 @@ switch (luckyNumber) {
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
+//I watched a video on Programiz about the syntax of ternary operators in JavaScript: https://www.programiz.com/javascript/ternary-operator
 
+result = (adventurous == true)? 'Adventures are great!' : 'How about we stay home';
+console.log(result);
