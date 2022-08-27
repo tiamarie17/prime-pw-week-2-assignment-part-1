@@ -124,6 +124,24 @@ if (pets >= friendsPets) {
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 
+switch (luckyNumber) {
+    case 0: 
+    if (luckyNumber == 1) {
+        console.log('First is the worst');
+    }
+    break;
+
+    case 1: 
+    if (luckyNumber == 2) {
+        console.log('Second is the best');
+    }
+    break;
+
+    case 2: 
+    if (luckyNumber == 3) {
+        console.log('Third is the one with the polka dot dress');
+    }
+}
 
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
