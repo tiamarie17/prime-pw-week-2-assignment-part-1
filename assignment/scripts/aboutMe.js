@@ -12,8 +12,8 @@ console.log('My last name is', lastName);
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 
-let fullName = firstName + lastName;
-console.log('My full name is', firstName + lastName);
+let fullName = firstName + " " + lastName;
+console.log('My full name is', firstName + " " + lastName);
 
 
 // 4 - Console log the value of `fullName`
@@ -29,7 +29,7 @@ let luckyNumber = 17;
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 
-console.log('My name is ' + fullName + ',and I think 17 is a winner!');
+console.log('My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!');
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
@@ -74,7 +74,7 @@ else {
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
 
-if (luckyNumber = 2 && adventurous == true){
+if (luckyNumber == 2 && adventurous == true){
     console.log('Roll the dice!');
 }
 
@@ -105,7 +105,7 @@ else if (pets > allowedPets) {
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
-let mostPets = 0
+let mostPets = 0;
 //I found an example on Stack Overflow where they set the variable assigned the highest number to 0, although I'm not sure if that's necessary?
 
 if (pets >= friendsPets) {
@@ -148,5 +148,5 @@ switch (luckyNumber) {
 
 //I watched a video on Programiz about the syntax of ternary operators in JavaScript: https://www.programiz.com/javascript/ternary-operator
 
-result = (adventurous == true)? 'Adventures are great!' : 'How about we stay home';
+let result = (adventurous == true)? 'Adventures are great!' : 'How about we stay home';
 console.log(result);
